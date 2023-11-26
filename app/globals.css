@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    @apply bg-custom-background bg-cover text-center mt-8 mx-12 flex flex-col h-[40rem]
+}
+.intro{
+    @apply text-center mt-20
+
+}

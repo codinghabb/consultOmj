@@ -12,7 +12,7 @@ export default function Banner() {
        </div>
        <div className='intro'>
           <p className=' tracking-widest text-gray-400 text-xs'> WHAT WE BELIEVE IN</p>
-          <h2 className=' text-2xl tracking-wide font-semibold line-clamp-2 mt-4 mb-14'> We  believe in helping companies achieve growth, attract investors, and navigate the complexities of expansion.</h2>
+          <h2 className=' text-2xl tracking-wide font-semibold line-clamp-2 mt-4 mb-14'> We  believe in helping companies achieve growth, attract investors, <br /> and navigate the complexities of expansion.</h2>
 
        </div>
     </>

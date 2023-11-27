@@ -1,5 +1,5 @@
 "use client"
-
+import Link from 'next/link'
 import React from 'react';
 import { useState } from 'react';
 
@@ -28,23 +28,23 @@ export default function Header() {
                         
                         <ul className='hidden w-full md:flex justify-between  md:mr-3'>
                             <li>
-                                <a href="https://twitter.com/habeebbii">
+                                <Link href="/about">
                                 About
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className='' href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
+                                <Link className='/about' href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
                                     Services
-                                </a>
+                                </Link>
                             </li>
             
                         </ul>
 
                 
                     </nav>
-                <a  className=' bg-black text-white px-6 py-2' href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
+                <Link  className=' bg-black text-white px-6 py-2' href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
                         Contact Us
-                    </a>
+                    </Link>
                   
               
 
@@ -78,19 +78,19 @@ export default function Header() {
               {isOpen && (
                 <ul className='flex flex-col gap-4 text-2xl mt-4 items-start basis-full pl-2 md:hidden'>
                   <li>
-                     <a href="https://twitter.com/habeebbii">
+                     <Link href="https://twitter.com/habeebbii">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                     <a href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
+                     <Link href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
                         Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                     <a href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
+                     <Link href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
                         Contact Us
-                    </a>
+                    </Link>
                   </li>
                   
                 

@@ -10,7 +10,7 @@ export default function Intro() {
             <div className=' mt-36'>
                 <p className=' text-xs text-gray-500 mt-4'>About</p>
                 <h1 className=' text-4xl tracking-[0.2em] my-4'>Who we are</h1>
-                <p className=' flex-wrap text-gray-400'> We provide insights into the changing dynamics of the startup ecosystem and  <br />investment trends across different sectors.</p>
+                <p className=' flex-wrap text-gray-400'> We are committed to offering versatile and impactful consulting services.</p>
             </div>
             <Image alt='logo'
              src={Logo}

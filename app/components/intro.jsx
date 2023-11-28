@@ -6,7 +6,7 @@ import Service from 'public/images/services.png'
 export default function Intro() {
   return (
     <>
-        <div className='flex justify-between border-t-2 mx-44'>
+        <div className='flex justify-between border-t-2 flex-col mx-4 md:mx-44'>
             <div className=' mt-36'>
                 <p className=' text-xs text-gray-500 mt-4'>About</p>
                 <h1 className=' text-4xl tracking-[0.2em] my-4'>Who we are</h1>
@@ -18,7 +18,7 @@ export default function Intro() {
              className=' mt-28'
             />
         </div>
-        <div className='flex justify-between mx-44'>
+        <div className='flex justify-between border-t-2 flex-col mx-4 md:mx-44'>
             <div className=' mt-36'>
                
                 <h1 className=' text-4xl tracking-[0.2em] my-4'>What we do</h1>

@@ -1,12 +1,14 @@
 import React from 'react'
 import Detail from '../components/detail'
-import Service from '../components/service'
+import Start from '../components/start'
+import Core from '../components/core'
 
 export default function About() {
   return (
     <>
         <Detail />
-        <Service />
+        <Core />
+        <Start />
     </>
   )
 }

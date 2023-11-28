@@ -18,7 +18,7 @@ export default function Header() {
  
   return (
     
-    <header className=' mt-4 pt-4 flex flex-wrap  items-center justify-between md:mx-16'>
+    <header className=' mt-4 pt-4 flex flex-wrap  items-center justify-between mx-5 md:mx-16'>
        
 
         
@@ -33,7 +33,7 @@ export default function Header() {
                                 </Link>
                             </li>
                             <li>
-                                <Link className='/about' href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
+                                <Link className='' href="/services" >
                                     Services
                                 </Link>
                             </li>
@@ -42,7 +42,7 @@ export default function Header() {
 
                 
                     </nav>
-                <Link  className=' bg-black text-white px-6 py-2' href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
+                   <Link  className=' bg-black text-white px-6 py-2 hidden md:block' href="/contact" >
                         Contact Us
                     </Link>
                   
@@ -78,17 +78,17 @@ export default function Header() {
               {isOpen && (
                 <ul className='flex flex-col gap-4 text-2xl mt-4 items-start basis-full pl-2 md:hidden'>
                   <li>
-                     <Link href="https://twitter.com/habeebbii">
+                     <Link href="/about">
                       About
                     </Link>
                   </li>
                   <li>
-                     <Link href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
+                     <Link href="/services" >
                         Services
                     </Link>
                   </li>
                   <li>
-                     <Link href="https://www.linkedin.com/in/ademola-abdul-aa093b28a/" >
+                     <Link  className=' bg-black text-white px-6 py-2' href="/contact" >
                         Contact Us
                     </Link>
                   </li>

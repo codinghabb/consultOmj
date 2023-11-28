@@ -9,7 +9,7 @@
 }
 
 .banner{
-    @apply bg-custom-background bg-cover text-center mt-8 mx-12 flex flex-col h-[40rem]
+    @apply bg-custom-background bg-cover text-center mt-8 mx-12 flex flex-col h-[30rem] md:h-[40rem]
 }
 .intro{
     @apply text-center mt-20

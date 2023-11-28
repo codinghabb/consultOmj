@@ -6,14 +6,20 @@ import { TbTargetArrow } from "react-icons/tb";
 import { FaChartPie } from "react-icons/fa";
 import { SiAwsorganizations } from "react-icons/si";
 
-export default function Service() {
+export default function Core() {
   return (
-    <div>
+    <>
+        <div className='border-b-2 mx-5  md:mx-44 mt-14 pb-10 text-center '>
+            <p className='text-gray-500'>OMJ Consulting, We offer a range of core services including pitch deck development, <br />
+             investor relations strategy, business strategy, sales strategy, and risk management strategies. <br />
+            Our target market encompasses a broad spectrum of small businesses and startups across various industries, <br />
+             all seeking expert guidance in expansion and investor engagement.</p>
+        </div>
         <div className=' text-center'>
                 <p className=' text-gray-500 mt-8 tracking-wider'>WHAT WE ARE BEST AT</p>
-                 <h2 className=' text-5xl mt-20 font-semibold'>Our Services</h2>
+
         </div>
-        <div className=' grid  grid-cols-3 mx-32'>
+        <div className=' grid  grid-cols-1 md:grid-cols-2 md:mx-32'>
             <div className=' mx-12 py-5'>
                 <div>
                     <SiSimpleanalytics className=' h-14 w-14 my-4' />
@@ -42,23 +48,10 @@ export default function Service() {
                 <p>Organization and Management</p>
                 <p>As the principal consultant at OMJ Consulting, we draw upon our extensive experience to provide tailored advice to a varied clientele. Should we plan to expand, we have a clear vision of the roles and expertise that will complement our services.</p>
             </div>
-            <div className=' mx-12 py-5'>
-                <div>
-
-                </div>
-            </div>
-            <div className=' mx-12 py-5'>
-                <div>
-
-                </div>
-            </div>
-            <div className=' mx-12 py-5'>
-                <div>
-
-                </div>
-            </div>
+           
         </div>
         
-    </div>
+        
+    </>
   )
 }

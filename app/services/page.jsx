@@ -1,10 +1,12 @@
 import React from 'react'
-import Service from '../components/core'
+import List from '../components/list'
+
 
 export default function Services() {
   return (
     <>
-        
+    <List />
+      
     </>
   )
 }

@@ -7,7 +7,7 @@ export default function page() {
   return (
     <>
     
-         <div className=' mt-16 md:mx-48'>
+         <div className='mx-auto'>
            <Forms />
            <Footer />
           </div>

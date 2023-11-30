@@ -21,8 +21,10 @@ export default function Header() {
     <header className=' mt-4 pt-4 flex flex-wrap  items-center justify-between mx-5 md:mx-16'>
        
 
-        
-              <h1 className=' text-2xl font-bold  underline underline-offset-8 '>Consult OMJ</h1>
+          <Link href="/">
+                <h1 className=' text-2xl font-bold  underline underline-offset-8 '>Consult OMJ</h1>
+          </Link>
+              
 
                     <nav className='  text-gray-400 md:mr-2'>
                         

@@ -28,12 +28,11 @@ export default function Footer() {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe> </div>
         <div className='text-center mt-16 text-gray-400 mb-10'>
-            <h2>OUR OFFICE</h2>
-            <p>Company Address Seoul, South Korea</p>
-            <h2> WORKING HOURS</h2>
-            <p>Monday-Sunday 24/7</p>
-            <h2> CONTACT</h2>
-            <p>+821054310493</p>
+            <h2 className='text-2xl my-5'>OUR OFFICE</h2>
+            <p className='my-5'>Company Address Seoul, South Korea</p>
+            <h2 className='text-2xl '> WORKING HOURS</h2>
+            <p className='my-2'>Monday-Sunday 24/7</p>
+            
         </div>
     </>
     

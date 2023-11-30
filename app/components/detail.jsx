@@ -21,7 +21,7 @@ export default function Detail() {
 
         <div className='my-20 text-center'>
               <p className='text-gray-500 text-3xl'>MEET THE C.E.O</p>
-              <Image alt='ceo' src={CEO} width={300} height={400} className=' mx-8 md:mx-auto ' />
+              <Image alt='ceo' src={CEO} width={300} height={400} className=' mx-auto ' />
               <p className=' text-3xl my-4'>Omojola Ayodele </p>
               <p className='text-gray-500 mx-4'>With my MBA in International Business and a rich global experience, <br /> am dedicated to offering innovative consulting services that bridge business, cultural, and creative divides. <br /> As the founder and principal consultant, <br /> I leverage my vast experience to offer innovative solutions that cater to a wide range of industries.</p>
               <div className='flex justify-between w-60 mx-auto mt-4'>

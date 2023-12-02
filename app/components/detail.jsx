@@ -10,6 +10,16 @@ import { IoMdMailUnread } from "react-icons/io";
 //image
 import CEO from 'public/images/graduate.jpg'
 
+
+
+   // to send email
+    const handleClick = (e) => {
+    e.preventDefault();
+    window.location.href = 'mailto:ayodeleomojolag@gmail.com';
+  };
+
+
+
 import Link from 'next/link'
 
 export default function Detail() {
@@ -28,7 +38,7 @@ export default function Detail() {
                 <Link href="https://t.me/Omj_Consulting">
                   <FaTelegramPlane className=' w-6 h-6' />
                 </Link>
-                <Link href="'mailto:ayodeleomojolag@gmail,com">
+                <Link  href="mailto:ayodeleomojolag@gmail.com">
                       <IoMdMailUnread className=' w-6 h-6' />
                 </Link>
                 <Link href="https://open.kakao.com/o/sUyPx0nf">

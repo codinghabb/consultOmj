@@ -28,7 +28,7 @@ export default function Detail() {
                 <Link href="https://t.me/Omj_Consulting">
                   <FaTelegramPlane className=' w-6 h-6' />
                 </Link>
-                <Link href="ayodeleomojolag@gmail.com">
+                <Link href="'mailto:ayodeleomojolag@gmail,com">
                       <IoMdMailUnread className=' w-6 h-6' />
                 </Link>
                 <Link href="https://open.kakao.com/o/sUyPx0nf">

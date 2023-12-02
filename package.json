@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "next start NODE_ENV=production node server.js",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,7 +14,8 @@
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.12.0"
+    "react-icons": "^4.12.0",
+    "sharp": "^0.33.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
